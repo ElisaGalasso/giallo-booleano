@@ -2,6 +2,7 @@
 
 /*#region screen tablet*/
 
+
 @media  screen and (min-width: 768px) {
 
     /*header*/
@@ -24,19 +25,29 @@
 
     .recipe-origin,
     .recipe-name {
-        font-size: 35px;
+        font-size: 30px;
     }
 
-   
-    div .recipe-card {
+    .quick-notes ul {
         display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .quick-notes li {
+        width: 30%;
+
     }
 
     /*button social network*/
   
 
-    .social-networks .label {
-        display: inline-block;
+    .social-networks {
+        display: flex;
+    }
+
+    .social-networks button {
+        flex: 1;
     }
 
     /*ads*/
@@ -57,3 +68,55 @@
 }
 
 /*#endregion screen tablet*/
+
+/*#region screen desktop*/
+
+@media screen and (min-width: 992px) {
+
+    /*recipe*/
+
+    .recipe-origin,
+    .recipe-name {
+        font-size: 50px;
+    }
+
+    /*video e quick notes*/
+
+    .quick-notes ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    .quick-notes li {
+        width: auto;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    div.recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        min-width: 800px;
+        width: 100%;
+    }
+
+    /*social network*/
+
+    .social-networks .label {
+        display: block;
+    }
+    
+    /*footer*/
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+/*#endregion screen desktop*/
