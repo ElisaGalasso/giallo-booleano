@@ -1,0 +1,59 @@
+/* Soluzione qui */
+
+/*#region screen tablet*/
+
+@media  screen and (min-width: 768px) {
+
+    /*header*/
+    
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    /*main*/
+
+    main {
+        padding: 50px;
+    }
+
+    /*recipe*/
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .recipe-origin,
+    .recipe-name {
+        font-size: 35px;
+    }
+
+   
+    div .recipe-card {
+        display: flex;
+    }
+
+    /*button social network*/
+  
+
+    .social-networks .label {
+        display: inline-block;
+    }
+
+    /*ads*/
+
+    .ads {
+        display: block;
+    }
+
+    /*presentatio*/
+
+
+    .presentation img {
+        float: left;
+        margin: 10px;
+    }
+        
+
+}
+
+/*#endregion screen tablet*/
