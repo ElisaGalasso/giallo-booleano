@@ -125,8 +125,13 @@
     }
 
     .recipe-video {
-        min-width: 800px;
-        width: 100%;
+        width: 80%;
+        height: 450px;
+    }
+
+    .recipe.info {
+        width: 20%;
+
     }
 
     /*social network*/
