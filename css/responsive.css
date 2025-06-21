@@ -1,5 +1,30 @@
 /* Soluzione qui */
 
+/*#region screen large mobile*/
+
+@media screen and (max-width: 576px) {
+
+       .presentation img {
+        float: left;
+        margin: 10px;
+    }
+
+     /*button social network*/
+  
+
+    .social-networks {
+        display: flex;
+    }
+
+    .social-networks button {
+        flex: 1;
+    }
+
+    
+}
+
+/*#endregion screen large mobile*/
+
 /*#region screen tablet*/
 
 
